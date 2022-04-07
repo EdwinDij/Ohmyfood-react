@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,300&family=Shrikhand&display=swap');
+
+.bannerOmf {
+    text-align: center;
+    font-family: Shrikhand, sans-serif;
+    margin-top: 0;
+    font-size: 2rem;
+    padding: 1rem;
+    box-shadow: 0px 5px 3px lightgrey;
+}
+.location {
+    text-align: right;
+    background-color: #f3f3f3;
+    margin-top: -1rem;
+    padding: 1rem;
+    margin-bottom: 0;
+    font-size: 1.3rem;
+}

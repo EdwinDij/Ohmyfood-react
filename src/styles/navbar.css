@@ -1,0 +1,29 @@
+.functionPage {
+    margin: 3rem 0 4rem 0;
+}
+
+.titleFunction {
+    padding-left: 1rem;
+    text-align: center;
+}
+
+.functionTools {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+}
+.listFunction {
+    background-color: #f3f3f3;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 3px 3px 10pw #dedada;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 4rem;
+    font-weight: bold;
+}
