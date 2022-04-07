@@ -1,0 +1,49 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.restaurantCard {
+    background-color: #fff;
+    box-shadow: 3px 3px 10px #dedada;
+    background-size: cover;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.imgRestaurant {
+    height: 12rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: none;
+    object-fit: cover; 
+}
+
+.new {
+    background-color: #99e2d0;
+    color: #217460;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    padding: 5px;
+    border-radius: 0.2rem;
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.titleCard {
+    font-weight: bold;
+    margin: 1rem 0 0.2rem 1rem;
+}
+
+.city {
+    margin: 3px 0 0 1rem;
+    padding-bottom: 0.7rem;
+}
